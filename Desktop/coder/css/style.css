@@ -1,0 +1,185 @@
+*{
+    font-family: "roboto", sans-serif;
+    padding: 0%;
+    margin: 0%;
+
+
+}
+header{background-color: #094293;
+    background-image: url(../imagen/futurista.jpg);
+    background-size:contain  
+}
+header  div nav ul li{list-style-type: none
+    ;display: inline-block;}
+.comienzo{
+display: flex
+;justify-content:flex-end;
+}
+
+
+/* encabezado*/
+.cont-img img{
+    width: 100px;
+    
+    
+}
+.cont-img img{
+    width: 30%;
+}
+.indice{
+    list-style-type: none;
+    display: inline-block;
+text-justify: distribute-all-lines;
+display: flex;justify-content: flex-end; }
+    
+
+
+/*main*/
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 50px;
+    font-family: 'Rubik Mono One', monospace;
+    margin: 40px 60px 30px 60px
+    
+    
+
+}
+.subtitle{
+    font-weight: 700;
+    font-size: 30px;
+   
+margin: 20px  20px 20px 20px
+ ;display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+
+}
+.subtitle-dos{
+    display: flex
+    ;flex-direction: column
+    
+    ;
+font-size: 20px;
+font-weight: 100px;
+margin-bottom: 40px;
+margin-top: 40px;
+
+
+}
+
+.flex-uno{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-dos{
+    display:flex;
+    justify-content: space-around;
+}
+.aqua {width: 400px;
+    margin-right: 20;
+}
+.aqua img{ width: 100%;}
+.aqua p{
+    font-size: 20px;
+}
+
+.aqua p strong{ font-size: 30px;}
+.aqua p{font-size: 15px;
+}
+
+.buscador{
+    display: flex;
+    justify-content: flex-end;
+}
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: flex-start;
+}
+/*aside*/
+.flex-tres{
+    display: flex;
+    justify-content: center;
+    flex-direction:initial;
+    background-color: aquamarine}
+    .span .subtitle{
+        display: flex;
+        justify-content: space-around;
+
+    ;
+}
+
+
+.espacios{
+    margin: 20px  20px 20px 20px
+}
+.fondo{
+    background-color: aquamarine;
+}
+.flex-cinco{display: grid;
+align-content: stretch;
+justify-items: center;
+align-items: center;
+justify-content: center;
+background-color:#1e2460;
+display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.trailer{
+    font-weight: 700;
+    font-size: 100px;
+display: flex;
+  background-color:#1e2460;
+
+
+}
+/* footer*/
+
+.pie{background-color: #001a57 ; background-size:contain  ; display:block;
+
+; 
+
+}
+.facu-2{
+    width: 0.5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.facu-2 img{
+    width: 10%;}
+    .facu{
+    display:flex;
+justify-content: space-around;}
+
+
+
+.grid-principal{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
+    grid-template-areas: inherit;}
+
+        
+
+
+.formulario{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+
